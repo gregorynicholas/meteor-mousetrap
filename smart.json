@@ -1,0 +1,8 @@
+{
+  "name": "meteor-mousetrap",
+  "description": "mousetrap.js package for meteor",
+  "homepage": "https://github.com/gregorynicholas/meteor-mousetrap",
+  "author": "gregorynicholas",
+  "version": "0.0.1",
+  "git": "https://github.com/gregorynicholas/meteor-mousetrap.git"
+}

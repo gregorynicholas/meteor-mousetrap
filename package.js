@@ -6,5 +6,9 @@ Package.describe({
 Package.on_use(function (api) {
   api.add_files('mousetrap.js', 'client');
 
-  api.export("Mousetrap", "client");
+  /**
+    * since the code attaches to the window object,
+    * skip exporting the variable
+    */
+  // api.export("Mousetrap", "client");
 });
